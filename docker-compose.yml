@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: insurance_chatbot_db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres_password
+      POSTGRES_DB: insurance_chatbot
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  chromadb:
+    image: chromadb/chroma:0.5.0
+    container_name: insurance_chatbot_vector
+    restart: always
+    environment:
+      - IS_PERSISTENT=TRUE
+      - PERSISTIST_DIRECTORY=/chroma/data
+      - ANONYMIZED_TELEMETRY=FALSE
+    ports:
+      - "8000:8000"
+    volumes:
+      - chroma_data:/chroma/data
+
+volumes:
+  postgres_data:
+  chroma_data:

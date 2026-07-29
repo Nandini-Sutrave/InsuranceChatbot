@@ -1,0 +1,1030 @@
+{
+  "system_version": {
+    "date": "2026-07-22T05:48:23.000074Z",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "chunk_version": "2026-07-22-V2-Ingestion",
+    "retriever_version": "1.2.0-Explainability-Log",
+    "generator_version": "1.0.0-Fallback"
+  },
+  "summary": {
+    "total_queries": 100,
+    "hit_rate": 0.84,
+    "recall_at_5": 0.78,
+    "recall_at_10": 0.83,
+    "mrr": 0.7158,
+    "avg_latency_ms": 101.25,
+    "duplicate_ratio": 0.047,
+    "avg_document_diversity": 0.1063,
+    "avg_section_diversity": 0.6457,
+    "avg_page_diversity": 0.3808,
+    "unique_source_pages_retrieved": 15,
+    "unique_headings_retrieved": 95
+  },
+  "failure_clusters": {
+    "Ranking/Reranker Optimization Failure": 10,
+    "Layout/Parser Noise": 5,
+    "Boilerplate/Contact Detail": 1
+  },
+  "queries": [
+    {
+      "query": "What is the policy details for Insured?",
+      "expected_heading": "XXXXXXXXXXXXXXXXXXXXXX > Insured",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 403.45,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Explain the coverage and benefits for Coverage.",
+      "expected_heading": "XXXXXXXXXXXXXXXXXXXXXX > Coverage",
+      "hit": true,
+      "rank": 4,
+      "mrr": 0.25,
+      "latency_ms": 173.49,
+      "retrieved_count": 13,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Explain the coverage and benefits for Individual Sum Insured.",
+      "expected_heading": "XXXXXXXXXXXXXXXXXXXXXX > Individual Sum Insured",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 112.28,
+      "retrieved_count": 8,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "Explain the coverage and benefits for Base Sum Insured.",
+      "expected_heading": "XXXXXXXXXXXXXXXXXXXXXX > Base Sum Insured",
+      "hit": true,
+      "rank": 7,
+      "mrr": 0.14285714285714285,
+      "latency_ms": 125.08,
+      "retrieved_count": 9,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Explain the coverage and benefits for b) Permanent Total Disablement: Benefit equal to 100% of.",
+      "expected_heading": "Coverage > b) Permanent Total Disablement: Benefit equal to 100% of",
+      "hit": true,
+      "rank": 4,
+      "mrr": 0.25,
+      "latency_ms": 146.28,
+      "retrieved_count": 12,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What are the exclusions under Exclusions?",
+      "expected_heading": "Exclusions",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 205.69,
+      "retrieved_count": 15,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Waiting?",
+      "expected_heading": "Waiting",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 159.04,
+      "retrieved_count": 9,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "How to file a claim or process claims for Procedure?",
+      "expected_heading": "Claim > Procedure",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 146.18,
+      "retrieved_count": 9,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "What is the policy details for Accident means a sudden, unforeseen, and involuntary event?",
+      "expected_heading": "PREAMBLE > Accident means a sudden, unforeseen, and involuntary event",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 69.74,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Age means age of the Insured person on last birthday as on date?",
+      "expected_heading": "PREAMBLE > Age means age of the Insured person on last birthday as on date",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 70.23,
+      "retrieved_count": 8,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Break in policy means the period of gap that occurs at the end of?",
+      "expected_heading": "PREAMBLE > Break in policy means the period of gap that occurs at the end of",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 138.73,
+      "retrieved_count": 8,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Condition Precedent means a Policy term or condition upon?",
+      "expected_heading": "PREAMBLE > Condition Precedent means a Policy term or condition upon",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 50.54,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Grace period means the specified period of time, immediately?",
+      "expected_heading": "PREAMBLE > Grace period means the specified period of time, immediately",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 122.47,
+      "retrieved_count": 8,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the waiting period for DEFINITIONS?",
+      "expected_heading": "DEFINITIONS",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 116.21,
+      "retrieved_count": 9,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the waiting period for Periods, Waiting Periods for Pre-existing Diseases, Moratorium?",
+      "expected_heading": "DEFINITIONS > Periods, Waiting Periods for Pre-existing Diseases, Moratorium",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 174.24,
+      "retrieved_count": 9,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Define the term Hospital means any institution established for in-patient care under definitions.",
+      "expected_heading": "DEFINITIONS > Hospital means any institution established for in-patient care",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 52.61,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Define the term Clinical Establishments (Registration and Regulation) Act, 2010 under definitions.",
+      "expected_heading": "DEFINITIONS > Clinical Establishments (Registration and Regulation) Act, 2010",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 87.5,
+      "retrieved_count": 11,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Define the term Hospitalisation means admission in a hospital for a minimum under definitions.",
+      "expected_heading": "DEFINITIONS > Hospitalisation means admission in a hospital for a minimum",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 53.16,
+      "retrieved_count": 8,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Define the term Injury means accidental physical bodily harm excluding illness under definitions.",
+      "expected_heading": "DEFINITIONS > Injury means accidental physical bodily harm excluding illness",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 108.1,
+      "retrieved_count": 8,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Define the term In-Patient Care means treatment for which the insured person under definitions.",
+      "expected_heading": "DEFINITIONS > In-Patient Care means treatment for which the insured person",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 113.03,
+      "retrieved_count": 8,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Define the term Insured Person means person(s) named in the schedule of the under definitions.",
+      "expected_heading": "DEFINITIONS > Insured Person means person(s) named in the schedule of the",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 87.63,
+      "retrieved_count": 8,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Define the term Intensive Care Unit means an identified section, ward or wing under definitions.",
+      "expected_heading": "DEFINITIONS > Intensive Care Unit means an identified section, ward or wing",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 83.29,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Define the term ICU (Intensive Care Unit) Charges means the amount charged under definitions.",
+      "expected_heading": "DEFINITIONS > ICU (Intensive Care Unit) Charges means the amount charged",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 133.27,
+      "retrieved_count": 11,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Define the term Medical Advice means any consultation or advice from a under definitions.",
+      "expected_heading": "DEFINITIONS > Medical Advice means any consultation or advice from a",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 84.36,
+      "retrieved_count": 8,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Define the term Medical Expenses means those expenses that an insured under definitions.",
+      "expected_heading": "DEFINITIONS > Medical Expenses means those expenses that an insured",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 87.98,
+      "retrieved_count": 6,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Define the term Sum Insured under definitions.",
+      "expected_heading": "DEFINITIONS > Sum Insured",
+      "hit": true,
+      "rank": 3,
+      "mrr": 0.3333333333333333,
+      "latency_ms": 86.02,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Loss of Index finger \u2013?",
+      "expected_heading": "Loss of Index finger \u2013",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 48.69,
+      "retrieved_count": 7,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Medical Practitioner means a person who holds a valid?",
+      "expected_heading": "Loss of Index finger \u2013 > Medical Practitioner means a person who holds a valid",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 70.71,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Council of India or Council for Indian Medicine or for?",
+      "expected_heading": "Loss of Index finger \u2013 > Council of India or Council for Indian Medicine or for",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 56.67,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Medically Necessary Treatment means any treatment, tests,?",
+      "expected_heading": "Loss of Index finger \u2013 > Medically Necessary Treatment means any treatment, tests,",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 54.43,
+      "retrieved_count": 7,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Non- Network Provider means any hospital that is not part of?",
+      "expected_heading": "Loss of Index finger \u2013 > Non- Network Provider means any hospital that is not part of",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 52.17,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "How to file a claim or process claims for Notification of Claim means the process of intimating a claim?",
+      "expected_heading": "Loss of Index finger \u2013 > Notification of Claim means the process of intimating a claim",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 122.65,
+      "retrieved_count": 9,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What are the exclusions under Policy means these Policy wordings, the Policy Schedule and?",
+      "expected_heading": "Loss of Index finger \u2013 > Policy means these Policy wordings, the Policy Schedule and",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 115.64,
+      "retrieved_count": 15,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Policy period means period of one policy year for which the?",
+      "expected_heading": "Loss of Index finger \u2013 > Policy period means period of one policy year for which the",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 116.59,
+      "retrieved_count": 7,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Policy Schedule means the Policy Schedule attached to and?",
+      "expected_heading": "Loss of Index finger \u2013 > Policy Schedule means the Policy Schedule attached to and",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 47.8,
+      "retrieved_count": 8,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Explain the coverage and benefits for Proposal form means a form to be filled in by the prospect in.",
+      "expected_heading": "Loss of Index finger \u2013 > Proposal form means a form to be filled in by the prospect in",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 124.34,
+      "retrieved_count": 6,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Proposal form means a form to be filled in by the prospect in?",
+      "expected_heading": "Loss of Index finger \u2013 > Proposal form means a form to be filled in by the prospect in",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 55.02,
+      "retrieved_count": 7,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What are the exclusions under Renewal means the terms on which the contract of insurance?",
+      "expected_heading": "Loss of Index finger \u2013 > Renewal means the terms on which the contract of insurance",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 122.9,
+      "retrieved_count": 12,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Room Rent means the amount charged by a hospital towards?",
+      "expected_heading": "Loss of Index finger \u2013 > Room Rent means the amount charged by a hospital towards",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 115.98,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Senior Citizen means any person, who has attained the Age of?",
+      "expected_heading": "Loss of Index finger \u2013 > Senior Citizen means any person, who has attained the Age of",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 54.95,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Surgery or Surgical Procedure means manual and / or?",
+      "expected_heading": "Loss of Index finger \u2013 > Surgery or Surgical Procedure means manual and / or",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 44.82,
+      "retrieved_count": 9,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Person suffers Permanent Partial Disablement of the?",
+      "expected_heading": "Loss of Index finger \u2013 > Person suffers Permanent Partial Disablement of the",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 60.76,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Explain the coverage and benefits for COVERAGE.",
+      "expected_heading": "COVERAGE",
+      "hit": true,
+      "rank": 9,
+      "mrr": 0.1111111111111111,
+      "latency_ms": 128.99,
+      "retrieved_count": 13,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Explain the coverage and benefits for or Permanent Total Disablement or Permanent Partial.",
+      "expected_heading": "COVERAGE > or Permanent Total Disablement or Permanent Partial",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 126.97,
+      "retrieved_count": 12,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Explain the coverage and benefits for time of the Accident (Temporary Total Disablement), the.",
+      "expected_heading": "COVERAGE > time of the Accident (Temporary Total Disablement), the",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 133.22,
+      "retrieved_count": 9,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Explain the coverage and benefits for Sum Insured.",
+      "expected_heading": "COVERAGE > Sum Insured",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 129.78,
+      "retrieved_count": 8,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Loss of metacarpus first or second (additional) third,?",
+      "expected_heading": "Loss of metacarpus first or second (additional) third,",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 56.83,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Any other permanent partial disablement?",
+      "expected_heading": "Any other permanent partial disablement",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 51.56,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Practitioner?",
+      "expected_heading": "Any other permanent partial disablement > Practitioner",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 52.06,
+      "retrieved_count": 12,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Explain the coverage and benefits for Practitioner.",
+      "expected_heading": "Any other permanent partial disablement > Practitioner",
+      "hit": true,
+      "rank": 2,
+      "mrr": 0.5,
+      "latency_ms": 142.5,
+      "retrieved_count": 11,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for ii. Surgeon, Anaesthetist, Medical Practitioner,?",
+      "expected_heading": "Any other permanent partial disablement > ii. Surgeon, Anaesthetist, Medical Practitioner,",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 52.12,
+      "retrieved_count": 11,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for iv. Intensive Care Unit (ICU) / Intensive Cardiac Care Unit?",
+      "expected_heading": "Any other permanent partial disablement > iv. Intensive Care Unit (ICU) / Intensive Cardiac Care Unit",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 54.05,
+      "retrieved_count": 8,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Explain the coverage and benefits for iv. Intensive Care Unit (ICU) / Intensive Cardiac Care Unit.",
+      "expected_heading": "Any other permanent partial disablement > iv. Intensive Care Unit (ICU) / Intensive Cardiac Care Unit",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 55.08,
+      "retrieved_count": 8,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Explain the coverage and benefits for policy towards Death or Permanent Total Disability of the.",
+      "expected_heading": "Any other permanent partial disablement > policy towards Death or Permanent Total Disability of the",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 137.47,
+      "retrieved_count": 14,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for policy towards Death or Permanent Total Disability of the?",
+      "expected_heading": "Any other permanent partial disablement > policy towards Death or Permanent Total Disability of the",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 50.22,
+      "retrieved_count": 13,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What are the exclusions under EXCLUSIONS (applicable to all sections of the policy)?",
+      "expected_heading": "EXCLUSIONS (applicable to all sections of the policy)",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 109.14,
+      "retrieved_count": 15,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What are the exclusions under Expenses due to Accident\"?",
+      "expected_heading": "EXCLUSIONS (applicable to all sections of the policy) > Expenses due to Accident\"",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 110.68,
+      "retrieved_count": 13,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What are the exclusions under I. Investigation & Evaluation (Code- Excl04)?",
+      "expected_heading": "EXCLUSIONS (applicable to all sections of the policy) > I. Investigation & Evaluation (Code- Excl04)",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 107.43,
+      "retrieved_count": 8,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What are the exclusions under iii. Identity proof of Nominee or Original Succession?",
+      "expected_heading": "EXCLUSIONS (applicable to all sections of the policy) > iii. Identity proof of Nominee or Original Succession",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 115.98,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What are the exclusions under Documents required in case of Permanent Total Disablement?",
+      "expected_heading": "EXCLUSIONS (applicable to all sections of the policy) > iii. Identity proof of Nominee or Original Succession > Documents required in case of Permanent Total Disablement",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 112.12,
+      "retrieved_count": 12,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What are the exclusions under Sections 4.1(b) and 4.1(c)?",
+      "expected_heading": "EXCLUSIONS (applicable to all sections of the policy) > Sections 4.1(b) and 4.1(c)",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 111.73,
+      "retrieved_count": 11,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What are the exclusions under Documents required in case of Temporary Total Disablement?",
+      "expected_heading": "EXCLUSIONS (applicable to all sections of the policy) > Sections 4.1(b) and 4.1(c) > Documents required in case of Temporary Total Disablement",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 110.55,
+      "retrieved_count": 11,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What are the exclusions under ii. Photo Identity Proof of Child?",
+      "expected_heading": "EXCLUSIONS (applicable to all sections of the policy) > ii. Photo Identity Proof of Child",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 110.23,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "How to file a claim or process claims for 3 Claim Settlement?",
+      "expected_heading": "3 Claim Settlement",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 115.21,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "How to file a claim or process claims for 4 Payment of Claim?",
+      "expected_heading": "4 Payment of Claim",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 108.06,
+      "retrieved_count": 12,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Explain the coverage and benefits for Cover.",
+      "expected_heading": "TABLE OF BENEFITS > Cover",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 126.79,
+      "retrieved_count": 12,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Explain the coverage and benefits for year.",
+      "expected_heading": "year",
+      "hit": true,
+      "rank": 4,
+      "mrr": 0.25,
+      "latency_ms": 118.17,
+      "retrieved_count": 13,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for I. Death?",
+      "expected_heading": "year > I. Death",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 49.0,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Territory of?",
+      "expected_heading": "/2 A, Universal Insurance Building, > Territory of",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 92.57,
+      "retrieved_count": 11,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "What is the policy details for Lane Opp. Saleem Function Palace,?",
+      "expected_heading": "/2 A, Universal Insurance Building, > Lane Opp. Saleem Function Palace,",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 51.39,
+      "retrieved_count": 8,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Bhawani Singh Marg,?",
+      "expected_heading": "/2 A, Universal Insurance Building, > Bhawani Singh Marg,",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 53.38,
+      "retrieved_count": 12,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Union Territory?",
+      "expected_heading": "/2 A, Universal Insurance Building, > Union Territory",
+      "hit": true,
+      "rank": 4,
+      "mrr": 0.25,
+      "latency_ms": 46.86,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Explain the coverage and benefits for Annexure-B.",
+      "expected_heading": "BELTS/ BRACES > Annexure-B",
+      "hit": true,
+      "rank": 13,
+      "mrr": 0.07692307692307693,
+      "latency_ms": 111.09,
+      "retrieved_count": 13,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for SUGAR FREE Tablets?",
+      "expected_heading": "SUGAR FREE Tablets",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 44.9,
+      "retrieved_count": 12,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the eligibility criteria for days?",
+      "expected_heading": "days",
+      "hit": true,
+      "rank": 10,
+      "mrr": 0.1,
+      "latency_ms": 50.64,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Rs.50,000/Period Of Insurance?",
+      "expected_heading": "days > Rs.50,000/Period Of Insurance",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 114.53,
+      "retrieved_count": 9,
+      "failure_cluster": "Layout/Parser Noise"
+    },
+    {
+      "query": "What is the policy details for Type Of Policy?",
+      "expected_heading": "days > Type Of Policy",
+      "hit": true,
+      "rank": 6,
+      "mrr": 0.16666666666666666,
+      "latency_ms": 44.04,
+      "retrieved_count": 12,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Explain the coverage and benefits for Scope Of Cover.",
+      "expected_heading": "days > Scope Of Cover",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 108.6,
+      "retrieved_count": 12,
+      "failure_cluster": "Layout/Parser Noise"
+    },
+    {
+      "query": "Explain the coverage and benefits for Base Cover.",
+      "expected_heading": "days > Base Cover",
+      "hit": true,
+      "rank": 4,
+      "mrr": 0.25,
+      "latency_ms": 113.72,
+      "retrieved_count": 13,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Explain the coverage and benefits for Percentage of Sum Insured.",
+      "expected_heading": "days > Percentage of Sum Insured",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 125.85,
+      "retrieved_count": 8,
+      "failure_cluster": "Layout/Parser Noise"
+    },
+    {
+      "query": "Explain the coverage and benefits for Loss of Index \ufb01nger \u2013.",
+      "expected_heading": "Loss of Index \ufb01nger \u2013",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 206.06,
+      "retrieved_count": 7,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "What is the policy details for Loss of Index \ufb01nger \u2013?",
+      "expected_heading": "Loss of Index \ufb01nger \u2013",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 66.29,
+      "retrieved_count": 7,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "Explain the coverage and benefits for Education Grant.",
+      "expected_heading": "Loss of Index \ufb01nger \u2013 > Education Grant",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 224.73,
+      "retrieved_count": 13,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Education Grant?",
+      "expected_heading": "Loss of Index \ufb01nger \u2013 > Education Grant",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 80.75,
+      "retrieved_count": 12,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Premium Rates?",
+      "expected_heading": "Loss of Index \ufb01nger \u2013 > Premium Rates",
+      "hit": true,
+      "rank": 9,
+      "mrr": 0.1111111111111111,
+      "latency_ms": 147.12,
+      "retrieved_count": 12,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Discount % on Premium?",
+      "expected_heading": "Loss of Index \ufb01nger \u2013 > Discount % on Premium",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 127.99,
+      "retrieved_count": 12,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "What is the policy details for Loading % on Premium?",
+      "expected_heading": "Adults = 2.50% > Loading % on Premium",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 143.18,
+      "retrieved_count": 12,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "What is the policy details for Monthly/Quarterly = 2%?",
+      "expected_heading": "Adults = 2.50% > Monthly/Quarterly = 2%",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 60.84,
+      "retrieved_count": 8,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "What is the policy details for Possibility of Revision of Terms of The Policy Including The Premium Rates?",
+      "expected_heading": "Adults = 2.50% > Possibility of Revision of Terms of The Policy Including The Premium Rates",
+      "hit": true,
+      "rank": 4,
+      "mrr": 0.25,
+      "latency_ms": 151.26,
+      "retrieved_count": 13,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "How to file a claim or process claims for How To Claim?",
+      "expected_heading": "Adults = 2.50% > How To Claim",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 132.42,
+      "retrieved_count": 9,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "How to file a claim or process claims for Claim Process?",
+      "expected_heading": "Adults = 2.50% > Claim Process",
+      "hit": true,
+      "rank": 5,
+      "mrr": 0.2,
+      "latency_ms": 131.22,
+      "retrieved_count": 9,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "How to file a claim or process claims for Claim Intimation?",
+      "expected_heading": "Adults = 2.50% > Claim Intimation",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 111.9,
+      "retrieved_count": 9,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "What is the policy details for speci\ufb01ed in the Policy OR Website?",
+      "expected_heading": "Adults = 2.50% > speci\ufb01ed in the Policy OR Website",
+      "hit": true,
+      "rank": 3,
+      "mrr": 0.3333333333333333,
+      "latency_ms": 77.5,
+      "retrieved_count": 12,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Name of the Insured Person(s) named in the Policy schedule / Certi\ufb01cate of Insurance?",
+      "expected_heading": "Name of the Insured Person(s) named in the Policy schedule / Certi\ufb01cate of Insurance",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 66.4,
+      "retrieved_count": 9,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for Photo Identity Proof of the insured person,?",
+      "expected_heading": "Photo Identity Proof of the insured person,",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 53.6,
+      "retrieved_count": 13,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the policy details for ii. Photo Identity Proof of Child?",
+      "expected_heading": "Photo Identity Proof of the insured person, > ii. Photo Identity Proof of Child",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 45.26,
+      "retrieved_count": 13,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "How to file a claim or process claims for Claim Document Submission Address?",
+      "expected_heading": "Photo Identity Proof of the insured person, > Claim Document Submission Address",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 107.19,
+      "retrieved_count": 7,
+      "failure_cluster": "Boilerplate/Contact Detail"
+    },
+    {
+      "query": "What is the policy details for yrs?",
+      "expected_heading": "yrs",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 44.36,
+      "retrieved_count": 12,
+      "failure_cluster": "Layout/Parser Noise"
+    },
+    {
+      "query": "What is the policy details for NA?",
+      "expected_heading": "NA",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 44.75,
+      "retrieved_count": 13,
+      "failure_cluster": "Layout/Parser Noise"
+    },
+    {
+      "query": "What is the policy details for Premium - AH?",
+      "expected_heading": "AD SI > Premium - AH",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 114.02,
+      "retrieved_count": 12,
+      "failure_cluster": "None (Hit)"
+    }
+  ]
+}

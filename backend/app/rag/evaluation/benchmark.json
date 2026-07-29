@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "query": "What is the waiting period for maternity benefits in health protector policy?",
+    "gold_truth_answer": "Maternity Expenses (Code – Excl 18): Excluded until the expiry of 9 months after the date of inception of the policy."
+  },
+  {
+    "id": 2,
+    "query": "What are the exclusions under the HDFC Life Click 2 Protect policy?",
+    "gold_truth_answer": "The primary exclusion is suicide: if the policyholder commits suicide within 12 months from the risk commencement date or date of revival, the nominee is entitled to only 80% of the total premiums paid or the surrender value, whichever is higher, and no death benefit is payable."
+  },
+  {
+    "id": 3,
+    "query": "What are the Do's and Don'ts for a POS Person?",
+    "gold_truth_answer": "The guidelines for a POS (Point of Sales) Person include key obligations: (1) Render proper advice to prospective policyholders, explaining coverage details. (2) Protect the interests of the customer. (3) Disclose all material facts. (4) Report any suspect transactions to the insurance company intermediary. Do not make misleading statements or induce customers to buy unsuitable policies."
+  },
+  {
+    "id": 4,
+    "query": "Are treatments received in health hydros or spas covered?",
+    "gold_truth_answer": "No, treatments received in health hydros, nature cure clinics, spas, or similar establishments are explicitly excluded from coverage under Section 10 of the policy wordings. These are considered non-medical or wellness treatments and are not eligible for reimbursement."
+  },
+  {
+    "id": 5,
+    "query": "What is severe refractory asthma coverage under Star Health Assure?",
+    "gold_truth_answer": "Under the Star Health Assure policy, expenses incurred for the treatment of Chronic Severe Refractory Asthma using Advanced Medicine are covered. This is payable up to 10% of the Sum Insured, subject to a maximum limit of Rs. 5 lakhs per policy period/year, provided it is recommended by a treating pulmonologist."
+  }
+]

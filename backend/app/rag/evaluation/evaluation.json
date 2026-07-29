@@ -1,0 +1,1069 @@
+[
+  {
+    "query": "What is the policy details for Insured?",
+    "expected_heading": "XXXXXXXXXXXXXXXXXXXXXX > Insured",
+    "expected_keywords": [
+      "insured"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for Coverage.",
+    "expected_heading": "XXXXXXXXXXXXXXXXXXXXXX > Coverage",
+    "expected_keywords": [
+      "coverage"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for Individual Sum Insured.",
+    "expected_heading": "XXXXXXXXXXXXXXXXXXXXXX > Individual Sum Insured",
+    "expected_keywords": [
+      "individual",
+      "insured"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for Base Sum Insured.",
+    "expected_heading": "XXXXXXXXXXXXXXXXXXXXXX > Base Sum Insured",
+    "expected_keywords": [
+      "base",
+      "insured"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for b) Permanent Total Disablement: Benefit equal to 100% of.",
+    "expected_heading": "Coverage > b) Permanent Total Disablement: Benefit equal to 100% of",
+    "expected_keywords": [
+      "100%",
+      "benefit",
+      "disablement",
+      "equal",
+      "permanent",
+      "total"
+    ]
+  },
+  {
+    "query": "What are the exclusions under Exclusions?",
+    "expected_heading": "Exclusions",
+    "expected_keywords": [
+      "exclusions"
+    ]
+  },
+  {
+    "query": "What is the policy details for Waiting?",
+    "expected_heading": "Waiting",
+    "expected_keywords": [
+      "waiting"
+    ]
+  },
+  {
+    "query": "How to file a claim or process claims for Procedure?",
+    "expected_heading": "Claim > Procedure",
+    "expected_keywords": [
+      "procedure"
+    ]
+  },
+  {
+    "query": "What is the policy details for Accident means a sudden, unforeseen, and involuntary event?",
+    "expected_heading": "PREAMBLE > Accident means a sudden, unforeseen, and involuntary event",
+    "expected_keywords": [
+      "accident",
+      "event",
+      "involuntary",
+      "means",
+      "sudden",
+      "unforeseen"
+    ]
+  },
+  {
+    "query": "What is the policy details for Age means age of the Insured person on last birthday as on date?",
+    "expected_heading": "PREAMBLE > Age means age of the Insured person on last birthday as on date",
+    "expected_keywords": [
+      "birthday",
+      "date",
+      "insured",
+      "last",
+      "means",
+      "person"
+    ]
+  },
+  {
+    "query": "What is the policy details for Break in policy means the period of gap that occurs at the end of?",
+    "expected_heading": "PREAMBLE > Break in policy means the period of gap that occurs at the end of",
+    "expected_keywords": [
+      "break",
+      "means",
+      "occurs",
+      "period",
+      "that"
+    ]
+  },
+  {
+    "query": "What is the policy details for Condition Precedent means a Policy term or condition upon?",
+    "expected_heading": "PREAMBLE > Condition Precedent means a Policy term or condition upon",
+    "expected_keywords": [
+      "condition",
+      "means",
+      "precedent",
+      "term",
+      "upon"
+    ]
+  },
+  {
+    "query": "What is the policy details for Grace period means the specified period of time, immediately?",
+    "expected_heading": "PREAMBLE > Grace period means the specified period of time, immediately",
+    "expected_keywords": [
+      "grace",
+      "immediately",
+      "means",
+      "period",
+      "specified",
+      "time"
+    ]
+  },
+  {
+    "query": "What is the waiting period for DEFINITIONS?",
+    "expected_heading": "DEFINITIONS",
+    "expected_keywords": [
+      "definitions"
+    ]
+  },
+  {
+    "query": "What is the waiting period for Periods, Waiting Periods for Pre-existing Diseases, Moratorium?",
+    "expected_heading": "DEFINITIONS > Periods, Waiting Periods for Pre-existing Diseases, Moratorium",
+    "expected_keywords": [
+      "diseases",
+      "existing",
+      "moratorium",
+      "periods",
+      "waiting"
+    ]
+  },
+  {
+    "query": "Define the term Hospital means any institution established for in-patient care under definitions.",
+    "expected_heading": "DEFINITIONS > Hospital means any institution established for in-patient care",
+    "expected_keywords": [
+      "care",
+      "established",
+      "hospital",
+      "institution",
+      "means",
+      "patient"
+    ]
+  },
+  {
+    "query": "Define the term Clinical Establishments (Registration and Regulation) Act, 2010 under definitions.",
+    "expected_heading": "DEFINITIONS > Clinical Establishments (Registration and Regulation) Act, 2010",
+    "expected_keywords": [
+      "1",
+      "2010",
+      "56",
+      "clinical",
+      "establishments",
+      "registration",
+      "regulation"
+    ]
+  },
+  {
+    "query": "Define the term Hospitalisation means admission in a hospital for a minimum under definitions.",
+    "expected_heading": "DEFINITIONS > Hospitalisation means admission in a hospital for a minimum",
+    "expected_keywords": [
+      "24",
+      "admission",
+      "hospital",
+      "hospitalisation",
+      "means",
+      "minimum"
+    ]
+  },
+  {
+    "query": "Define the term Injury means accidental physical bodily harm excluding illness under definitions.",
+    "expected_heading": "DEFINITIONS > Injury means accidental physical bodily harm excluding illness",
+    "expected_keywords": [
+      "accidental",
+      "bodily",
+      "excluding",
+      "harm",
+      "illness",
+      "injury",
+      "means",
+      "physical"
+    ]
+  },
+  {
+    "query": "Define the term In-Patient Care means treatment for which the insured person under definitions.",
+    "expected_heading": "DEFINITIONS > In-Patient Care means treatment for which the insured person",
+    "expected_keywords": [
+      "24 ",
+      "24 hours",
+      "care",
+      "insured",
+      "means",
+      "patient",
+      "person",
+      "treatment",
+      "which"
+    ]
+  },
+  {
+    "query": "Define the term Insured Person means person(s) named in the schedule of the under definitions.",
+    "expected_heading": "DEFINITIONS > Insured Person means person(s) named in the schedule of the",
+    "expected_keywords": [
+      "insured",
+      "means",
+      "named",
+      "person",
+      "schedule"
+    ]
+  },
+  {
+    "query": "Define the term Intensive Care Unit means an identified section, ward or wing under definitions.",
+    "expected_heading": "DEFINITIONS > Intensive Care Unit means an identified section, ward or wing",
+    "expected_keywords": [
+      "care",
+      "identified",
+      "intensive",
+      "means",
+      "unit",
+      "ward",
+      "wing"
+    ]
+  },
+  {
+    "query": "Define the term ICU (Intensive Care Unit) Charges means the amount charged under definitions.",
+    "expected_heading": "DEFINITIONS > ICU (Intensive Care Unit) Charges means the amount charged",
+    "expected_keywords": [
+      "amount",
+      "care",
+      "charged",
+      "charges",
+      "intensive",
+      "means",
+      "unit"
+    ]
+  },
+  {
+    "query": "Define the term Medical Advice means any consultation or advice from a under definitions.",
+    "expected_heading": "DEFINITIONS > Medical Advice means any consultation or advice from a",
+    "expected_keywords": [
+      "advice",
+      "consultation",
+      "from",
+      "means",
+      "medical"
+    ]
+  },
+  {
+    "query": "Define the term Medical Expenses means those expenses that an insured under definitions.",
+    "expected_heading": "DEFINITIONS > Medical Expenses means those expenses that an insured",
+    "expected_keywords": [
+      "144 ",
+      "expenses",
+      "insured",
+      "means",
+      "medical",
+      "that",
+      "those"
+    ]
+  },
+  {
+    "query": "Define the term Sum Insured under definitions.",
+    "expected_heading": "DEFINITIONS > Sum Insured",
+    "expected_keywords": [
+      "1 ",
+      "1%",
+      "10%",
+      "2 ",
+      "2%",
+      "20%",
+      "25%",
+      "3 ",
+      "35%",
+      "4 ",
+      "40%",
+      "5 ",
+      "5%",
+      "50%",
+      "6 ",
+      "insured",
+      "rs 35",
+      "rs 50"
+    ]
+  },
+  {
+    "query": "What is the policy details for Loss of Index finger \u2013?",
+    "expected_heading": "Loss of Index finger \u2013",
+    "expected_keywords": [
+      "10%",
+      "2%",
+      "4%",
+      "5%",
+      "6%",
+      "8 ",
+      "8%",
+      "9 ",
+      "finger",
+      "index",
+      "loss"
+    ]
+  },
+  {
+    "query": "What is the policy details for Medical Practitioner means a person who holds a valid?",
+    "expected_heading": "Loss of Index finger \u2013 > Medical Practitioner means a person who holds a valid",
+    "expected_keywords": [
+      "holds",
+      "means",
+      "medical",
+      "person",
+      "practitioner",
+      "valid"
+    ]
+  },
+  {
+    "query": "What is the policy details for Council of India or Council for Indian Medicine or for?",
+    "expected_heading": "Loss of Index finger \u2013 > Council of India or Council for Indian Medicine or for",
+    "expected_keywords": [
+      "council",
+      "india",
+      "indian",
+      "medicine"
+    ]
+  },
+  {
+    "query": "What is the policy details for Medically Necessary Treatment means any treatment, tests,?",
+    "expected_heading": "Loss of Index finger \u2013 > Medically Necessary Treatment means any treatment, tests,",
+    "expected_keywords": [
+      "means",
+      "medically",
+      "necessary",
+      "tests",
+      "treatment"
+    ]
+  },
+  {
+    "query": "What is the policy details for Non- Network Provider means any hospital that is not part of?",
+    "expected_heading": "Loss of Index finger \u2013 > Non- Network Provider means any hospital that is not part of",
+    "expected_keywords": [
+      "hospital",
+      "means",
+      "network",
+      "part",
+      "provider",
+      "that"
+    ]
+  },
+  {
+    "query": "How to file a claim or process claims for Notification of Claim means the process of intimating a claim?",
+    "expected_heading": "Loss of Index finger \u2013 > Notification of Claim means the process of intimating a claim",
+    "expected_keywords": [
+      "claim",
+      "intimating",
+      "means",
+      "notification",
+      "process"
+    ]
+  },
+  {
+    "query": "What are the exclusions under Policy means these Policy wordings, the Policy Schedule and?",
+    "expected_heading": "Loss of Index finger \u2013 > Policy means these Policy wordings, the Policy Schedule and",
+    "expected_keywords": [
+      "means",
+      "schedule",
+      "these",
+      "wordings"
+    ]
+  },
+  {
+    "query": "What is the policy details for Policy period means period of one policy year for which the?",
+    "expected_heading": "Loss of Index finger \u2013 > Policy period means period of one policy year for which the",
+    "expected_keywords": [
+      "means",
+      "period",
+      "which",
+      "year"
+    ]
+  },
+  {
+    "query": "What is the policy details for Policy Schedule means the Policy Schedule attached to and?",
+    "expected_heading": "Loss of Index finger \u2013 > Policy Schedule means the Policy Schedule attached to and",
+    "expected_keywords": [
+      "attached",
+      "means",
+      "schedule"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for Proposal form means a form to be filled in by the prospect in.",
+    "expected_heading": "Loss of Index finger \u2013 > Proposal form means a form to be filled in by the prospect in",
+    "expected_keywords": [
+      "filled",
+      "form",
+      "means",
+      "proposal",
+      "prospect"
+    ]
+  },
+  {
+    "query": "What is the policy details for Proposal form means a form to be filled in by the prospect in?",
+    "expected_heading": "Loss of Index finger \u2013 > Proposal form means a form to be filled in by the prospect in",
+    "expected_keywords": [
+      "filled",
+      "form",
+      "means",
+      "proposal",
+      "prospect"
+    ]
+  },
+  {
+    "query": "What are the exclusions under Renewal means the terms on which the contract of insurance?",
+    "expected_heading": "Loss of Index finger \u2013 > Renewal means the terms on which the contract of insurance",
+    "expected_keywords": [
+      "contract",
+      "means",
+      "renewal",
+      "terms",
+      "which"
+    ]
+  },
+  {
+    "query": "What is the policy details for Room Rent means the amount charged by a hospital towards?",
+    "expected_heading": "Loss of Index finger \u2013 > Room Rent means the amount charged by a hospital towards",
+    "expected_keywords": [
+      "amount",
+      "charged",
+      "hospital",
+      "means",
+      "rent",
+      "room",
+      "towards"
+    ]
+  },
+  {
+    "query": "What is the policy details for Senior Citizen means any person, who has attained the Age of?",
+    "expected_heading": "Loss of Index finger \u2013 > Senior Citizen means any person, who has attained the Age of",
+    "expected_keywords": [
+      "attained",
+      "citizen",
+      "means",
+      "person",
+      "senior"
+    ]
+  },
+  {
+    "query": "What is the policy details for Surgery or Surgical Procedure means manual and / or?",
+    "expected_heading": "Loss of Index finger \u2013 > Surgery or Surgical Procedure means manual and / or",
+    "expected_keywords": [
+      "manual",
+      "means",
+      "procedure",
+      "surgery",
+      "surgical"
+    ]
+  },
+  {
+    "query": "What is the policy details for Person suffers Permanent Partial Disablement of the?",
+    "expected_heading": "Loss of Index finger \u2013 > Person suffers Permanent Partial Disablement of the",
+    "expected_keywords": [
+      "12 ",
+      "12 months",
+      "disablement",
+      "partial",
+      "permanent",
+      "person",
+      "suffers"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for COVERAGE.",
+    "expected_heading": "COVERAGE",
+    "expected_keywords": [
+      "144 ",
+      "coverage"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for or Permanent Total Disablement or Permanent Partial.",
+    "expected_heading": "COVERAGE > or Permanent Total Disablement or Permanent Partial",
+    "expected_keywords": [
+      "12 ",
+      "12 months",
+      "4.2 ",
+      "disablement",
+      "partial",
+      "permanent",
+      "total"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for time of the Accident (Temporary Total Disablement), the.",
+    "expected_heading": "COVERAGE > time of the Accident (Temporary Total Disablement), the",
+    "expected_keywords": [
+      "accident",
+      "disablement",
+      "temporary",
+      "time",
+      "total"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for Sum Insured.",
+    "expected_heading": "COVERAGE > Sum Insured",
+    "expected_keywords": [
+      "10",
+      "insured"
+    ]
+  },
+  {
+    "query": "What is the policy details for Loss of metacarpus first or second (additional) third,?",
+    "expected_heading": "Loss of metacarpus first or second (additional) third,",
+    "expected_keywords": [
+      "2%",
+      "3%",
+      "additional",
+      "first",
+      "loss",
+      "metacarpus",
+      "second",
+      "third"
+    ]
+  },
+  {
+    "query": "What is the policy details for Any other permanent partial disablement?",
+    "expected_heading": "Any other permanent partial disablement",
+    "expected_keywords": [
+      "disablement",
+      "other",
+      "partial",
+      "permanent"
+    ]
+  },
+  {
+    "query": "What is the policy details for Practitioner?",
+    "expected_heading": "Any other permanent partial disablement > Practitioner",
+    "expected_keywords": [
+      "2%",
+      "practitioner"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for Practitioner.",
+    "expected_heading": "Any other permanent partial disablement > Practitioner",
+    "expected_keywords": [
+      "practitioner"
+    ]
+  },
+  {
+    "query": "What is the policy details for ii. Surgeon, Anaesthetist, Medical Practitioner,?",
+    "expected_heading": "Any other permanent partial disablement > ii. Surgeon, Anaesthetist, Medical Practitioner,",
+    "expected_keywords": [
+      "anaesthetist",
+      "medical",
+      "practitioner",
+      "surgeon"
+    ]
+  },
+  {
+    "query": "What is the policy details for iv. Intensive Care Unit (ICU) / Intensive Cardiac Care Unit?",
+    "expected_heading": "Any other permanent partial disablement > iv. Intensive Care Unit (ICU) / Intensive Cardiac Care Unit",
+    "expected_keywords": [
+      "cardiac",
+      "care",
+      "intensive",
+      "unit"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for iv. Intensive Care Unit (ICU) / Intensive Cardiac Care Unit.",
+    "expected_heading": "Any other permanent partial disablement > iv. Intensive Care Unit (ICU) / Intensive Cardiac Care Unit",
+    "expected_keywords": [
+      "cardiac",
+      "care",
+      "intensive",
+      "unit"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for policy towards Death or Permanent Total Disability of the.",
+    "expected_heading": "Any other permanent partial disablement > policy towards Death or Permanent Total Disability of the",
+    "expected_keywords": [
+      "10%",
+      "death",
+      "disability",
+      "permanent",
+      "total",
+      "towards"
+    ]
+  },
+  {
+    "query": "What is the policy details for policy towards Death or Permanent Total Disability of the?",
+    "expected_heading": "Any other permanent partial disablement > policy towards Death or Permanent Total Disability of the",
+    "expected_keywords": [
+      "death",
+      "disability",
+      "permanent",
+      "total",
+      "towards"
+    ]
+  },
+  {
+    "query": "What are the exclusions under EXCLUSIONS (applicable to all sections of the policy)?",
+    "expected_heading": "EXCLUSIONS (applicable to all sections of the policy)",
+    "expected_keywords": [
+      "applicable",
+      "exclusions",
+      "sections"
+    ]
+  },
+  {
+    "query": "What are the exclusions under Expenses due to Accident\"?",
+    "expected_heading": "EXCLUSIONS (applicable to all sections of the policy) > Expenses due to Accident\"",
+    "expected_keywords": [
+      "accident",
+      "expenses"
+    ]
+  },
+  {
+    "query": "What are the exclusions under I. Investigation & Evaluation (Code- Excl04)?",
+    "expected_heading": "EXCLUSIONS (applicable to all sections of the policy) > I. Investigation & Evaluation (Code- Excl04)",
+    "expected_keywords": [
+      "code",
+      "evaluation",
+      "excl04",
+      "investigation"
+    ]
+  },
+  {
+    "query": "What are the exclusions under iii. Identity proof of Nominee or Original Succession?",
+    "expected_heading": "EXCLUSIONS (applicable to all sections of the policy) > iii. Identity proof of Nominee or Original Succession",
+    "expected_keywords": [
+      "identity",
+      "nominee",
+      "original",
+      "proof",
+      "succession"
+    ]
+  },
+  {
+    "query": "What are the exclusions under Documents required in case of Permanent Total Disablement?",
+    "expected_heading": "EXCLUSIONS (applicable to all sections of the policy) > iii. Identity proof of Nominee or Original Succession > Documents required in case of Permanent Total Disablement",
+    "expected_keywords": [
+      "case",
+      "disablement",
+      "documents",
+      "permanent",
+      "required",
+      "total"
+    ]
+  },
+  {
+    "query": "What are the exclusions under Sections 4.1(b) and 4.1(c)?",
+    "expected_heading": "EXCLUSIONS (applicable to all sections of the policy) > Sections 4.1(b) and 4.1(c)",
+    "expected_keywords": [
+      "4.1",
+      "sections"
+    ]
+  },
+  {
+    "query": "What are the exclusions under Documents required in case of Temporary Total Disablement?",
+    "expected_heading": "EXCLUSIONS (applicable to all sections of the policy) > Sections 4.1(b) and 4.1(c) > Documents required in case of Temporary Total Disablement",
+    "expected_keywords": [
+      "4.1",
+      "4.2",
+      "case",
+      "disablement",
+      "documents",
+      "required",
+      "temporary",
+      "total"
+    ]
+  },
+  {
+    "query": "What are the exclusions under ii. Photo Identity Proof of Child?",
+    "expected_heading": "EXCLUSIONS (applicable to all sections of the policy) > ii. Photo Identity Proof of Child",
+    "expected_keywords": [
+      "child",
+      "identity",
+      "photo",
+      "proof"
+    ]
+  },
+  {
+    "query": "How to file a claim or process claims for 3 Claim Settlement?",
+    "expected_heading": "3 Claim Settlement",
+    "expected_keywords": [
+      "3 ",
+      "claim",
+      "settlement"
+    ]
+  },
+  {
+    "query": "How to file a claim or process claims for 4 Payment of Claim?",
+    "expected_heading": "4 Payment of Claim",
+    "expected_keywords": [
+      "4 ",
+      "claim",
+      "payment"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for Cover.",
+    "expected_heading": "TABLE OF BENEFITS > Cover",
+    "expected_keywords": [
+      "cover"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for year.",
+    "expected_heading": "year",
+    "expected_keywords": [
+      "year"
+    ]
+  },
+  {
+    "query": "What is the policy details for I. Death?",
+    "expected_heading": "year > I. Death",
+    "expected_keywords": [
+      "death"
+    ]
+  },
+  {
+    "query": "What is the policy details for Territory of?",
+    "expected_heading": "/2 A, Universal Insurance Building, > Territory of",
+    "expected_keywords": [
+      "2 ",
+      "territory"
+    ]
+  },
+  {
+    "query": "What is the policy details for Lane Opp. Saleem Function Palace,?",
+    "expected_heading": "/2 A, Universal Insurance Building, > Lane Opp. Saleem Function Palace,",
+    "expected_keywords": [
+      "004",
+      "2 ",
+      "500 ",
+      "function",
+      "lane",
+      "palace",
+      "saleem"
+    ]
+  },
+  {
+    "query": "What is the policy details for Bhawani Singh Marg,?",
+    "expected_heading": "/2 A, Universal Insurance Building, > Bhawani Singh Marg,",
+    "expected_keywords": [
+      "005",
+      "2 ",
+      "302 ",
+      "bhawani",
+      "marg",
+      "singh"
+    ]
+  },
+  {
+    "query": "What is the policy details for Union Territory?",
+    "expected_heading": "/2 A, Universal Insurance Building, > Union Territory",
+    "expected_keywords": [
+      "2 ",
+      "territory",
+      "union"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for Annexure-B.",
+    "expected_heading": "BELTS/ BRACES > Annexure-B",
+    "expected_keywords": [
+      "annexure"
+    ]
+  },
+  {
+    "query": "What is the policy details for SUGAR FREE Tablets?",
+    "expected_heading": "SUGAR FREE Tablets",
+    "expected_keywords": [
+      "free",
+      "sugar",
+      "tablets"
+    ]
+  },
+  {
+    "query": "What is the eligibility criteria for days?",
+    "expected_heading": "days",
+    "expected_keywords": [
+      "18 ",
+      "18 years",
+      "25",
+      "25 ",
+      "25 years",
+      "3 ",
+      "3 months",
+      "days"
+    ]
+  },
+  {
+    "query": "What is the policy details for Rs.50,000/Period Of Insurance?",
+    "expected_heading": "days > Rs.50,000/Period Of Insurance",
+    "expected_keywords": [
+      "000",
+      "1 ",
+      "1 year",
+      "50",
+      "period",
+      "rs.50,000"
+    ]
+  },
+  {
+    "query": "What is the policy details for Type Of Policy?",
+    "expected_heading": "days > Type Of Policy",
+    "expected_keywords": [
+      "type"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for Scope Of Cover.",
+    "expected_heading": "days > Scope Of Cover",
+    "expected_keywords": [
+      "cover",
+      "scope"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for Base Cover.",
+    "expected_heading": "days > Base Cover",
+    "expected_keywords": [
+      "100%",
+      "base",
+      "cover"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for Percentage of Sum Insured.",
+    "expected_heading": "days > Percentage of Sum Insured",
+    "expected_keywords": [
+      "1 ",
+      "1%",
+      "2 ",
+      "2%",
+      "20%",
+      "3 ",
+      "35%",
+      "4 ",
+      "40%",
+      "5 ",
+      "5%",
+      "50%",
+      "6 ",
+      "insured",
+      "percentage",
+      "rs 35",
+      "rs 50"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for Loss of Index \ufb01nger \u2013.",
+    "expected_heading": "Loss of Index \ufb01nger \u2013",
+    "expected_keywords": [
+      "10 ",
+      "10%",
+      "11 ",
+      "12 ",
+      "2%",
+      "3%",
+      "4%",
+      "5%",
+      "6%",
+      "8 ",
+      "8%",
+      "9 ",
+      "index",
+      "loss",
+      "\ufb01nger"
+    ]
+  },
+  {
+    "query": "What is the policy details for Loss of Index \ufb01nger \u2013?",
+    "expected_heading": "Loss of Index \ufb01nger \u2013",
+    "expected_keywords": [
+      "12 ",
+      "12 months",
+      "400099",
+      "9",
+      "index",
+      "loss",
+      "\ufb01nger"
+    ]
+  },
+  {
+    "query": "Explain the coverage and benefits for Education Grant.",
+    "expected_heading": "Loss of Index \ufb01nger \u2013 > Education Grant",
+    "expected_keywords": [
+      "10%",
+      "education",
+      "grant"
+    ]
+  },
+  {
+    "query": "What is the policy details for Education Grant?",
+    "expected_heading": "Loss of Index \ufb01nger \u2013 > Education Grant",
+    "expected_keywords": [
+      "25 ",
+      "education",
+      "grant"
+    ]
+  },
+  {
+    "query": "What is the policy details for Premium Rates?",
+    "expected_heading": "Loss of Index \ufb01nger \u2013 > Premium Rates",
+    "expected_keywords": [
+      "400099",
+      "9",
+      "premium",
+      "rates"
+    ]
+  },
+  {
+    "query": "What is the policy details for Discount % on Premium?",
+    "expected_heading": "Loss of Index \ufb01nger \u2013 > Discount % on Premium",
+    "expected_keywords": [
+      "10%",
+      "5%",
+      "discount",
+      "premium"
+    ]
+  },
+  {
+    "query": "What is the policy details for Loading % on Premium?",
+    "expected_heading": "Adults = 2.50% > Loading % on Premium",
+    "expected_keywords": [
+      "2.50%",
+      "loading",
+      "premium"
+    ]
+  },
+  {
+    "query": "What is the policy details for Monthly/Quarterly = 2%?",
+    "expected_heading": "Adults = 2.50% > Monthly/Quarterly = 2%",
+    "expected_keywords": [
+      "0%",
+      "2%",
+      "2.50%",
+      "monthly",
+      "quarterly"
+    ]
+  },
+  {
+    "query": "What is the policy details for Possibility of Revision of Terms of The Policy Including The Premium Rates?",
+    "expected_heading": "Adults = 2.50% > Possibility of Revision of Terms of The Policy Including The Premium Rates",
+    "expected_keywords": [
+      "2.50%",
+      "3",
+      "including",
+      "possibility",
+      "premium",
+      "rates",
+      "revision",
+      "terms"
+    ]
+  },
+  {
+    "query": "How to file a claim or process claims for How To Claim?",
+    "expected_heading": "Adults = 2.50% > How To Claim",
+    "expected_keywords": [
+      "2.50%",
+      "claim"
+    ]
+  },
+  {
+    "query": "How to file a claim or process claims for Claim Process?",
+    "expected_heading": "Adults = 2.50% > Claim Process",
+    "expected_keywords": [
+      "2.50%",
+      "claim",
+      "process"
+    ]
+  },
+  {
+    "query": "How to file a claim or process claims for Claim Intimation?",
+    "expected_heading": "Adults = 2.50% > Claim Intimation",
+    "expected_keywords": [
+      "2.50%",
+      "claim",
+      "intimation"
+    ]
+  },
+  {
+    "query": "What is the policy details for speci\ufb01ed in the Policy OR Website?",
+    "expected_heading": "Adults = 2.50% > speci\ufb01ed in the Policy OR Website",
+    "expected_keywords": [
+      "2.50%",
+      "speci\ufb01ed",
+      "website"
+    ]
+  },
+  {
+    "query": "What is the policy details for Name of the Insured Person(s) named in the Policy schedule / Certi\ufb01cate of Insurance?",
+    "expected_heading": "Name of the Insured Person(s) named in the Policy schedule / Certi\ufb01cate of Insurance",
+    "expected_keywords": [
+      "certi\ufb01cate",
+      "insured",
+      "name",
+      "named",
+      "person",
+      "schedule"
+    ]
+  },
+  {
+    "query": "What is the policy details for Photo Identity Proof of the insured person,?",
+    "expected_heading": "Photo Identity Proof of the insured person,",
+    "expected_keywords": [
+      "3",
+      "identity",
+      "insured",
+      "person",
+      "photo",
+      "proof"
+    ]
+  },
+  {
+    "query": "What is the policy details for ii. Photo Identity Proof of Child?",
+    "expected_heading": "Photo Identity Proof of the insured person, > ii. Photo Identity Proof of Child",
+    "expected_keywords": [
+      "child",
+      "identity",
+      "photo",
+      "proof"
+    ]
+  },
+  {
+    "query": "How to file a claim or process claims for Claim Document Submission Address?",
+    "expected_heading": "Photo Identity Proof of the insured person, > Claim Document Submission Address",
+    "expected_keywords": [
+      "address",
+      "claim",
+      "document",
+      "submission"
+    ]
+  },
+  {
+    "query": "What is the policy details for yrs?",
+    "expected_heading": "yrs",
+    "expected_keywords": [
+      "5%"
+    ]
+  },
+  {
+    "query": "What is the policy details for NA?",
+    "expected_heading": "NA",
+    "expected_keywords": [
+      "000",
+      "2",
+      "50",
+      "919.6",
+      "968"
+    ]
+  },
+  {
+    "query": "What is the policy details for Premium - AH?",
+    "expected_heading": "AD SI > Premium - AH",
+    "expected_keywords": [
+      "premium"
+    ]
+  }
+]

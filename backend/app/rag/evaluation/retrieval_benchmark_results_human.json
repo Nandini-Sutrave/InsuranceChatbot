@@ -1,0 +1,278 @@
+{
+  "system_version": {
+    "date": "2026-07-22T18:40:10.863402Z",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "chunk_version": "2026-07-22-V2-Ingestion",
+    "retriever_version": "1.2.0-Explainability-Log",
+    "generator_version": "1.0.0-Fallback"
+  },
+  "summary": {
+    "total_queries": 25,
+    "hit_rate": 0.6,
+    "recall_at_5": 0.52,
+    "recall_at_10": 0.6,
+    "mrr": 0.508,
+    "avg_latency_ms": 320.49,
+    "duplicate_ratio": 0.1908,
+    "avg_document_diversity": 0.1918,
+    "avg_section_diversity": 0.7016,
+    "avg_page_diversity": 0.4836,
+    "unique_source_pages_retrieved": 67,
+    "unique_headings_retrieved": 141
+  },
+  "failure_clusters": {
+    "Ranking/Reranker Optimization Failure": 10
+  },
+  "queries": [
+    {
+      "query": "My father met with a fatal accident. How much death benefit will we get under SBI Saral Suraksha Bima?",
+      "expected_heading": "Coverage",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 1037.75,
+      "retrieved_count": 6,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Is there any education grant for children if the insured person dies in an accident?",
+      "expected_heading": "Coverage",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 274.14,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Does the policy cover hospitalization expenses due to an accident under SBI Saral Suraksha?",
+      "expected_heading": "Coverage",
+      "hit": true,
+      "rank": 2,
+      "mrr": 0.5,
+      "latency_ms": 226.31,
+      "retrieved_count": 6,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "I want to renew my policy but it expired 10 days ago. Can I still renew it?",
+      "expected_heading": "Period",
+      "hit": true,
+      "rank": 10,
+      "mrr": 0.1,
+      "latency_ms": 163.68,
+      "retrieved_count": 13,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What happens to the policy if the insured commits suicide within the first year under HDFC Click 2 Protect?",
+      "expected_heading": "Exclusions",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 171.33,
+      "retrieved_count": 8,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Is maternity cover excluded from HDFC Health policies?",
+      "expected_heading": "Exclusions",
+      "hit": true,
+      "rank": 10,
+      "mrr": 0.1,
+      "latency_ms": 360.88,
+      "retrieved_count": 12,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Are spa treatments and nature cures covered by the health policy?",
+      "expected_heading": "Exclusions",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 359.52,
+      "retrieved_count": 13,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "How to file a claim under the policy? What is the claim submission address?",
+      "expected_heading": "Claim",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 484.08,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the maximum limit for ICU room charges under Star Health / HDFC Health Protector?",
+      "expected_heading": "BENEFITS COVERED",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 453.8,
+      "retrieved_count": 13,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "Does the policy cover advanced treatments like Severe Refractory Asthma?",
+      "expected_heading": "BENEFITS COVERED",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 388.45,
+      "retrieved_count": 16,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "What is the waiting period for pre-existing diseases under the health protector plan?",
+      "expected_heading": "Exclusions",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 421.32,
+      "retrieved_count": 8,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Can a POS Person sell this policy? What are their dos and don'ts?",
+      "expected_heading": "POS Person",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 146.34,
+      "retrieved_count": 12,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "Is AYUSH treatment (Ayurveda/Homeopathy) covered under HDFC Health policy?",
+      "expected_heading": "AYUSH",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 335.22,
+      "retrieved_count": 13,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the cumulative bonus percentage per claim-free year under SBI Saral Suraksha?",
+      "expected_heading": "Cumulative Bonus",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 402.5,
+      "retrieved_count": 8,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Are organ donor expenses covered during transplant surgery?",
+      "expected_heading": "Donor",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 261.76,
+      "retrieved_count": 11,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "Does the policy cover dental treatment needed due to an accident?",
+      "expected_heading": "Dental",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 320.02,
+      "retrieved_count": 16,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What is the penalty if I fail to disclose a pre-existing medical condition?",
+      "expected_heading": "Terms and",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 110.74,
+      "retrieved_count": 16,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "Is there a co-pay requirement for senior citizens under HDFC Health Protector?",
+      "expected_heading": "Co-pay",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 313.2,
+      "retrieved_count": 13,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "What is the free look period to cancel my policy and get a refund?",
+      "expected_heading": "Free Look",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 250.17,
+      "retrieved_count": 6,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "Are OPD (Out-Patient) consults covered in this health policy?",
+      "expected_heading": "Exclusions",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 298.07,
+      "retrieved_count": 12,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "What documents are required to file a death claim under SBI Saral Suraksha?",
+      "expected_heading": "Claim",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 367.04,
+      "retrieved_count": 6,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What are the rules for policy cancellation by the insurer under HDFC Click 2 Protect?",
+      "expected_heading": "Cancellation",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 120.83,
+      "retrieved_count": 8,
+      "failure_cluster": "None (Hit)"
+    },
+    {
+      "query": "What are the entry age limits for SBI Saral Suraksha Bima?",
+      "expected_heading": "Eligibility",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 405.16,
+      "retrieved_count": 6,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "Are diagnostic tests covered if hospitalization is not required?",
+      "expected_heading": "Exclusions",
+      "hit": false,
+      "rank": -1,
+      "mrr": 0.0,
+      "latency_ms": 93.88,
+      "retrieved_count": 10,
+      "failure_cluster": "Ranking/Reranker Optimization Failure"
+    },
+    {
+      "query": "Does the policy cover road ambulance charges for emergency transport?",
+      "expected_heading": "Ambulance",
+      "hit": true,
+      "rank": 1,
+      "mrr": 1.0,
+      "latency_ms": 246.12,
+      "retrieved_count": 10,
+      "failure_cluster": "None (Hit)"
+    }
+  ]
+}

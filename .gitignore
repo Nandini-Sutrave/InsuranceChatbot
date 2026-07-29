@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+backend/venv/
+
+# Environment/config files
+.env
+.env.*
+
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/out/
+
+# Databases and indexes
+backend/chroma_db/
+backend/data/vector_store/
+backend/uploads/
+backend/*.pkl
+backend/*.jsonl
+backend/*.sqlite3
+backend/parsed_chunks_debug.json
+backend/logs/
+backend/app/data/vector_store/
+
+# Large local artifacts
+*.bin
+*.pyd
+*.dll
+*.lib
+*.so
+*.dylib
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.gz
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db

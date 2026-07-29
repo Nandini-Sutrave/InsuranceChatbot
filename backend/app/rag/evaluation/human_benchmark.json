@@ -1,0 +1,227 @@
+[
+  {
+    "query": "My father met with a fatal accident. How much death benefit will we get under SBI Saral Suraksha Bima?",
+    "intent": "coverage",
+    "difficulty": "easy",
+    "expected_document": "SBI",
+    "expected_heading": "Coverage",
+    "expected_keywords": ["Base Covers", "Death", "100%", "Sum Insured"],
+    "negative_keywords": ["Corporate Office", "Address", "Tollfree"]
+  },
+  {
+    "query": "Is there any education grant for children if the insured person dies in an accident?",
+    "intent": "coverage",
+    "difficulty": "medium",
+    "expected_document": "SBI",
+    "expected_heading": "Coverage",
+    "expected_keywords": ["Education Grant", "one-time", "10%"],
+    "negative_keywords": ["ombudsman", "registered office"]
+  },
+  {
+    "query": "Does the policy cover hospitalization expenses due to an accident under SBI Saral Suraksha?",
+    "intent": "coverage",
+    "difficulty": "easy",
+    "expected_document": "SBI",
+    "expected_heading": "Coverage",
+    "expected_keywords": ["Optional Covers", "Hospitalisation", "Hospitalization"],
+    "negative_keywords": ["complaints", "stage 1"]
+  },
+  {
+    "query": "I want to renew my policy but it expired 10 days ago. Can I still renew it?",
+    "intent": "waiting_period",
+    "difficulty": "medium",
+    "expected_document": "SBI",
+    "expected_heading": "Period",
+    "expected_keywords": ["Grace Period", "30 days", "renew"],
+    "negative_keywords": ["Registered Office", "Thane"]
+  },
+  {
+    "query": "What happens to the policy if the insured commits suicide within the first year under HDFC Click 2 Protect?",
+    "intent": "exclusion",
+    "difficulty": "easy",
+    "expected_document": "HDFC",
+    "expected_heading": "Exclusions",
+    "expected_keywords": ["suicide", "12 months", "80%"],
+    "negative_keywords": ["Toll Free", "Mumbai", "Grievance"]
+  },
+  {
+    "query": "Is maternity cover excluded from HDFC Health policies?",
+    "intent": "exclusion",
+    "difficulty": "medium",
+    "expected_document": "HDFC",
+    "expected_heading": "Exclusions",
+    "expected_keywords": ["Maternity", "9 months", "inception"],
+    "negative_keywords": ["ombudsmen", "address"]
+  },
+  {
+    "query": "Are spa treatments and nature cures covered by the health policy?",
+    "intent": "exclusion",
+    "difficulty": "easy",
+    "expected_document": "HDFC",
+    "expected_heading": "Exclusions",
+    "expected_keywords": ["hydros", "spas", "nature cure"],
+    "negative_keywords": ["tollfree", "cin"]
+  },
+  {
+    "query": "How to file a claim under the policy? What is the claim submission address?",
+    "intent": "claim_process",
+    "difficulty": "medium",
+    "expected_document": "SBI",
+    "expected_heading": "Claim",
+    "expected_keywords": ["Claim Intimation", "submission", "documents required"],
+    "negative_keywords": ["IRDAI", "license"]
+  },
+  {
+    "query": "What is the maximum limit for ICU room charges under Star Health / HDFC Health Protector?",
+    "intent": "coverage",
+    "difficulty": "hard",
+    "expected_document": "HDFC",
+    "expected_heading": "BENEFITS COVERED",
+    "expected_keywords": ["ICU Room", "2% of Sum Insured"],
+    "negative_keywords": ["registration", "website"]
+  },
+  {
+    "query": "Does the policy cover advanced treatments like Severe Refractory Asthma?",
+    "intent": "coverage",
+    "difficulty": "hard",
+    "expected_document": "HDFC",
+    "expected_heading": "BENEFITS COVERED",
+    "expected_keywords": ["Severe Refractory Asthma", "5 lakhs", "pulmonologist"],
+    "negative_keywords": ["registered office", "customer.care"]
+  },
+  {
+    "query": "What is the waiting period for pre-existing diseases under the health protector plan?",
+    "intent": "waiting_period",
+    "difficulty": "easy",
+    "expected_document": "HDFC",
+    "expected_heading": "Exclusions",
+    "expected_keywords": ["waiting period", "36 months", "pre-existing"],
+    "negative_keywords": ["corporate office", "regd office"]
+  },
+  {
+    "query": "Can a POS Person sell this policy? What are their dos and don'ts?",
+    "intent": "definition",
+    "difficulty": "medium",
+    "expected_document": "HDFC",
+    "expected_heading": "POS Person",
+    "expected_keywords": ["POS Person", "obligations", "advice"],
+    "negative_keywords": ["ICU", "Asthma"]
+  },
+  {
+    "query": "Is AYUSH treatment (Ayurveda/Homeopathy) covered under HDFC Health policy?",
+    "intent": "coverage",
+    "difficulty": "hard",
+    "expected_document": "HDFC",
+    "expected_heading": "AYUSH",
+    "expected_keywords": ["AYUSH", "Ayurveda", "Homeopathy", "government hospital"],
+    "negative_keywords": ["corporate office", "mumbai"]
+  },
+  {
+    "query": "What is the cumulative bonus percentage per claim-free year under SBI Saral Suraksha?",
+    "intent": "coverage",
+    "difficulty": "medium",
+    "expected_document": "SBI",
+    "expected_heading": "Cumulative Bonus",
+    "expected_keywords": ["Cumulative Bonus", "5%", "maximum of 50%"],
+    "negative_keywords": ["ombudsman", "address"]
+  },
+  {
+    "query": "Are organ donor expenses covered during transplant surgery?",
+    "intent": "coverage",
+    "difficulty": "hard",
+    "expected_document": "HDFC",
+    "expected_heading": "Donor",
+    "expected_keywords": ["Organ Donor", "harvesting", "transplant"],
+    "negative_keywords": ["toll free", "road"]
+  },
+  {
+    "query": "Does the policy cover dental treatment needed due to an accident?",
+    "intent": "coverage",
+    "difficulty": "medium",
+    "expected_document": "HDFC",
+    "expected_heading": "Dental",
+    "expected_keywords": ["Dental Treatment", "accident", "injury"],
+    "negative_keywords": ["Stage 1", "Bima Bharosa"]
+  },
+  {
+    "query": "What is the penalty if I fail to disclose a pre-existing medical condition?",
+    "intent": "exclusion",
+    "difficulty": "hard",
+    "expected_document": "SBI",
+    "expected_heading": "Terms and",
+    "expected_keywords": ["non-disclosure", "misrepresentation", "voidable"],
+    "negative_keywords": ["maternity", "education grant"]
+  },
+  {
+    "query": "Is there a co-pay requirement for senior citizens under HDFC Health Protector?",
+    "intent": "premium",
+    "difficulty": "medium",
+    "expected_document": "HDFC",
+    "expected_heading": "Co-pay",
+    "expected_keywords": ["Co-payment", "co-pay", "20%"],
+    "negative_keywords": ["ombudsman", "email"]
+  },
+  {
+    "query": "What is the free look period to cancel my policy and get a refund?",
+    "intent": "waiting_period",
+    "difficulty": "easy",
+    "expected_document": "SBI",
+    "expected_heading": "Free Look",
+    "expected_keywords": ["Free Look", "15 days", "cancel"],
+    "negative_keywords": ["corporate office", "mumbai"]
+  },
+  {
+    "query": "Are OPD (Out-Patient) consults covered in this health policy?",
+    "intent": "exclusion",
+    "difficulty": "medium",
+    "expected_document": "HDFC",
+    "expected_heading": "Exclusions",
+    "expected_keywords": ["OPD", "out-patient", "excluded"],
+    "negative_keywords": ["corporate office", "wagle"]
+  },
+  {
+    "query": "What documents are required to file a death claim under SBI Saral Suraksha?",
+    "intent": "claim_process",
+    "difficulty": "medium",
+    "expected_document": "SBI",
+    "expected_heading": "Claim",
+    "expected_keywords": ["Death Certificate", "Claim Form", "Post Mortem"],
+    "negative_keywords": ["maternity", "waiting period"]
+  },
+  {
+    "query": "What are the rules for policy cancellation by the insurer under HDFC Click 2 Protect?",
+    "intent": "claim_process",
+    "difficulty": "hard",
+    "expected_document": "HDFC",
+    "expected_heading": "Cancellation",
+    "expected_keywords": ["cancellation", "misstatement", "fraud"],
+    "negative_keywords": ["Toll Free", "customer.care"]
+  },
+  {
+    "query": "What are the entry age limits for SBI Saral Suraksha Bima?",
+    "intent": "premium",
+    "difficulty": "easy",
+    "expected_document": "SBI",
+    "expected_heading": "Eligibility",
+    "expected_keywords": ["18 years", "70 years", "entry age"],
+    "negative_keywords": ["corporate office", "mumbai"]
+  },
+  {
+    "query": "Are diagnostic tests covered if hospitalization is not required?",
+    "intent": "exclusion",
+    "difficulty": "medium",
+    "expected_document": "HDFC",
+    "expected_heading": "Exclusions",
+    "expected_keywords": ["diagnostic", "investigation", "excluded"],
+    "negative_keywords": ["email", "Stage 4"]
+  },
+  {
+    "query": "Does the policy cover road ambulance charges for emergency transport?",
+    "intent": "coverage",
+    "difficulty": "medium",
+    "expected_document": "HDFC",
+    "expected_heading": "Ambulance",
+    "expected_keywords": ["Ambulance", "emergency", "actual expenses"],
+    "negative_keywords": ["corporate office", "registered office"]
+  }
+]
